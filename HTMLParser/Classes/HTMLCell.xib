@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="htmlCell" id="ZDH-cA-xSW" customClass="HTMLCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZDH-cA-xSW" id="XJv-hE-wR8">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4kv-it-ZQi" customClass="DTAttributedTextView">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4kv-it-ZQi" firstAttribute="top" secondItem="XJv-hE-wR8" secondAttribute="top" id="3CM-1K-7yq"/>
+                    <constraint firstAttribute="bottom" secondItem="4kv-it-ZQi" secondAttribute="bottom" id="8wt-Sv-cYX"/>
+                    <constraint firstAttribute="trailing" secondItem="4kv-it-ZQi" secondAttribute="trailing" id="kBd-2N-G3f"/>
+                    <constraint firstItem="4kv-it-ZQi" firstAttribute="leading" secondItem="XJv-hE-wR8" secondAttribute="leading" id="oIA-Qo-oXI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="attributedTextView" destination="4kv-it-ZQi" id="nge-CM-89S"/>
+            </connections>
+            <point key="canvasLocation" x="-17" y="-63"/>
+        </tableViewCell>
+    </objects>
+</document>
