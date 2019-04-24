@@ -1,11 +1,3 @@
-//
-//  HTMLCell.m
-//  UAFootball
-//
-//  Created by Woxapp on 01.11.17.
-//  Copyright © 2017 woxapp. All rights reserved.
-//
-
 #import "HTMLCell.h"
 #import "HTMLProcessor.h"
 #import "DTTableTextAttachment.h"

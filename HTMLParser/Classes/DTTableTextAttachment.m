@@ -1,11 +1,3 @@
-//
-//  DTTableTextAttachmwnt.m
-//  UFApp
-//
-//  Created by Roman Kyrylenko on 8/15/15.
-//  Copyright (c) 2015 uf. All rights reserved.
-//
-
 #import "DTTableTextAttachment.h"
 
 NSString *const kDTTableTextAttachmentWebViewDidFinishLoading = @"p_kWebViewDidFinishLoading";

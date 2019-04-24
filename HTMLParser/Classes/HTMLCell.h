@@ -1,11 +1,3 @@
-//
-//  HTMLCell.h
-//  UAFootball
-//
-//  Created by Woxapp on 01.11.17.
-//  Copyright © 2017 woxapp. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
 @import DTCoreText;
 
